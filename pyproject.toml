@@ -1,13 +1,16 @@
 [project]
 name = "lzim-bot"
 version = "0.1.0"
-description = "Discord bot do Irllan (Lzim)"
-requires-python = ">=3.11"
-
+description = "Bot Discord - Lzim v9"
+readme = "README.md"
+requires-python = ">=3.10"
 dependencies = [
-    "discord-py>=2.6.4",
-    "pynacl>=1.6.1",
-    "pytz>=2025.2",
-    "yt-dlp>=2025.10.22",
-    "python-dotenv>=1.0.0"
+    "discord.py>=2.3.2",
+    "python-dotenv>=1.0.0",
+    "pytz",
+    "aiohttp",
+    "requests",
 ]
+
+[tool.uv]
+dev-dependencies = []
