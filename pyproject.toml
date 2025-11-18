@@ -10,6 +10,7 @@ dependencies = [
     "pytz",
     "aiohttp",
     "requests",
+    "yt-dlp"
 ]
 
 [tool.uv]
